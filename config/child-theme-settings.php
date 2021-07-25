@@ -4,7 +4,7 @@
  *
  * Genesis 2.9+ updates these settings when themes are activated.
  *
- * @package Genesis Sample
+ * @package genesis-sample
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

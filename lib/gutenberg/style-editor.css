@@ -1,3 +1,4 @@
+/* stylelint-disable */
 body {
 	color: #333;
 	font-family: "Source Sans Pro", sans-serif;
@@ -415,3 +416,4 @@ table {
 .wp-block[data-align="full"] .wp-block-latest-posts {
 	padding: 0 30px;
 }
+/* stylelint-enable */

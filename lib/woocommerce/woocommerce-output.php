@@ -4,7 +4,7 @@
  *
  * This file adds the WooCommerce styles and the Customizer additions for WooCommerce to the Genesis Sample Theme.
  *
- * @package Genesis Sample
+ * @package genesis-sample
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

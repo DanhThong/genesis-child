@@ -2,7 +2,7 @@
 /**
  * Gutenberg theme support.
  *
- * @package Genesis Sample
+ * @package genesis-sample
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/

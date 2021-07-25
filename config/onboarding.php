@@ -4,7 +4,7 @@
  *
  * Onboarding config to load plugins and homepage content on theme activation.
  *
- * @package Genesis Sample
+ * @package genesis-sample
  * @author  StudioPress
  * @license GPL-2.0-or-later
  * @link    https://www.studiopress.com/
