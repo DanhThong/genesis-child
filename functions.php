@@ -89,6 +89,19 @@ function genesis_sample_enqueue_scripts_styles() {
 		);
 	}
 
+	// phpcs:ignore WordPress.Security.NonceVerification -- CSRF OK
+	$debug = ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) || ( isset( $_GET['script_debug'] ) ) ? true : false;
+
+	$version = '1.0.0';
+
+	$suffix = ( true === $debug ) ? '' : '.min';
+
+	$asset_file = include __DIR__ . '/../build/index.asset.php';
+
+	// Register styles & scripts.
+	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/build/index.css', [], $asset_file['version'] );
+	wp_enqueue_script( 'main-scripts', get_stylesheet_directory_uri() . '/build/index.js', $asset_file['dependencies'], $asset_file['version'], true );
+
 }
 
 add_filter( 'body_class', 'genesis_sample_body_classes' );
