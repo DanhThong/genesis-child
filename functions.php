@@ -96,7 +96,7 @@ function genesis_sample_enqueue_scripts_styles() {
 
 	$suffix = ( true === $debug ) ? '' : '.min';
 
-	$asset_file = include __DIR__ . '/../build/index.asset.php';
+	$asset_file = include __DIR__ . '/build/index.asset.php';
 
 	// Register styles & scripts.
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/build/index.css', [], $asset_file['version'] );
