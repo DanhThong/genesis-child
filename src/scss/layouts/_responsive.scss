@@ -111,7 +111,7 @@
 	--------------------------------------------- */
 
 	.site-inner {
-		max-width: 1140px;
+		@apply max-w-screen-desktop;
 	}
 
 	/* Content
@@ -236,7 +236,7 @@
 	--------------------------------------------- */
 
 	.footer-widgets .wrap {
-		max-width: 1140px;
+		@apply max-w-screen-desktop;
 	}
 
 	.footer-widget-area {
